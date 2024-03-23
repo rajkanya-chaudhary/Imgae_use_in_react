@@ -1,10 +1,11 @@
-import React from 'react'
-import ImageExample from './ImageExample/ImageExample'
+import React from "react";
+import ReactDOM from  "react-dom/client"
+import ImageExample from "./ImageExample/ImageExample";
 
-export default function index() {
-  return (
-    <div>
-      <ImageExample/>
-    </div>
-  )
-}
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render
+(
+  <>
+  <ImageExample/>
+  </>
+)

@@ -1,0 +1,23 @@
+.center h3{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.center input
+{
+    width: 99%;
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+.center button
+{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+
+}
+
